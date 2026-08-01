@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khaled ELKET VFX</title>
+<style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family: Arial;}
+    body{background:#0a0a0a;color:#fff;text-align:center;}
+    header{padding:30px;background:#000;}
+    header img{max-width:280px;width:80%;}
+    header h1{letter-spacing:3px;margin-top:10px;}
+    .hero{padding:50px 20px;}
+    .hero h2{font-size:35px;margin-bottom:10px;}
+    .hero p{color:#aaa;font-size:18px;}
+    .portfolio{padding:40px 20px;}
+    .portfolio h2{font-size:32px;}
+    .subtitle{color:#aaa;margin-bottom:30px;}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;max-width:1200px;margin:auto;}
+    .card{background:#111;border-radius:12px;overflow:hidden;}
+    .card img{width:100%;}
+    .card p{padding:12px;color:#ccc;}
+    footer{padding:40px 20px;background:#000;margin-top:40px;}
+    footer a{color:#E1306C;text-decoration:none;font-size:20px;font-weight:bold;}
+</style>
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" alt="Logo">
+    <h1>KHALED ELKET VFX</h1>
+</header>
+
+<div class="hero">
+    <h2>Graphic Designer & VFX Artist</h2>
+    <p>Creative Designs That Speak Louder</p>
+</div>
+
+<div class="portfolio">
+    <h2>My Designs</h2>
+    <p class="subtitle">is very famous designs</p>
+    
+    <div class="grid">
+        <div class="card"><img src="1.jpg"><p>Ice Latte Ad</p></div>
+        <div class="card"><img src="2.jpg"><p>Music Cover</p></div>
+        <div class="card"><img src="3.jpg"><p>Artist Poster</p></div>
+        <div class="card"><img src="4.jpg"><p>Strawberry Juice</p></div>
+        <div class="card"><img src="5.jpg"><p>Educational Center</p></div>
+        <div class="card"><img src="6.jpg"><p>KFC Ad</p></div>
+        <div class="card"><img src="7.jpg"><p>Volt Energy</p></div>
+        <div class="card"><img src="8.jpg"><p>Mega Ice Cream</p></div>
+    </div>
+</div>
+
+<footer>
+    <h3>Follow My Official Account</h3>
+    <a href="https://instagram.com/k.m2op4" target="_blank">📸 k.m2op4@</a>
+    <p style="color:#aaa;margin-top:8px;">official account</p>
+    <p style="color:#555;margin-top:20px;">© 2026 Khaled ELKET VFX</p>
+</footer>
+
+</body>
+</html>
